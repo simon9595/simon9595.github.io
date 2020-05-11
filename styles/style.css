@@ -18,6 +18,9 @@ aside {
   margin: -10% 0;
 }
 
+.about {
+  flex-grow: 2;
+}
 
 main {
   border: black 1px solid;
@@ -62,6 +65,31 @@ h4 {
 .name {
   padding: 2em 0;
 }
+
+section {
+  display: Flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
+
+.items {
+  flex-grow: 5;
+}
+
+.date {
+  flex-basis: 30%;
+}
+
+.refs {
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+
 
 @media screen and (max-width: 750px) {
 
