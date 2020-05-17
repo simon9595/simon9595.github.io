@@ -183,7 +183,7 @@ i {
   font-size: 0.6em;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
 
   .container {
     margin: 0;
@@ -192,11 +192,16 @@ i {
   main {
     margin-left: 0%;
     order: -1;
+    width: 100%;
   }
 
   .name {
     padding: 0 0 2% 5%;
     margin: auto;
+  }
+
+  #title {
+    margin-top: 1%;
   }
 
   .hobbies {
@@ -230,7 +235,8 @@ i {
   }
 
   aside {
-    margin: -3%
+    margin: -3%;
+    width: 100%;
   }
 
   .refs {
