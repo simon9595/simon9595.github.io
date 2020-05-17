@@ -44,6 +44,7 @@ address, .about {
   padding: 10%;
   margin: -15% 0 0 0;
   font-weight: 400;
+  font-style: normal;
 }
 
 .about {
@@ -61,6 +62,7 @@ main {
 }
 
 #me {
+  border: 5px solid rgb(218, 175, 18);
   border-radius: 100%;
   min-width: 10%;
   min-height: 10%;
@@ -69,7 +71,9 @@ main {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 2em;
+  margin-bottom: 0px;
 }
 
 h4 {
@@ -84,9 +88,9 @@ h4 {
 }
 
 .hobbies {
-  display: flex;
+  display: flex; */
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-bottom: 5%;
   /* cuts off badly without padding at the bottom, at least on smaller screens */
 }
@@ -94,10 +98,10 @@ h4 {
 .hobby {
   min-width: 35px;
   min-height: 35px;
-  max-width: 47px;
-  max-height: 47px;
-  border-radius: 100%;
+  max-width: 65px;
+  max-height: 65px;
 }
+
 
 .name {
   padding: 3em 0;
@@ -132,6 +136,8 @@ article {
 
 .date {
   flex-basis: 35%;
+  display: flex;
+  flex-direction: row;
 }
 
 .refs {
@@ -143,6 +149,23 @@ hr {
   width: 70%;
   margin-left: 0;
   border: 1px solid #feca07;
+}
+
+i {
+  font-size: 1.1em;
+  color: #feca07;
+}
+
+.current {
+  padding-right: 5%;
+  padding-top: 3%;
+  font-size: 0.8em;
+}
+
+.past {
+  padding-right: 5%;
+  padding-top: 5%;
+  font-size: 0.6em;
 }
 
 @media screen and (max-width: 750px) {
