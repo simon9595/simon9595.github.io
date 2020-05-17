@@ -157,6 +157,7 @@ article {
 
 .ref {
   flex-basis: 50%;
+  min-width: 250px;
 }
 
 hr {
@@ -184,6 +185,10 @@ i {
 
 @media screen and (max-device-width: 480px) {
 
+  .container {
+    margin: 0;
+  }
+
   main {
     margin-left: 0%;
     order: -1;
@@ -191,6 +196,7 @@ i {
 
   .name {
     padding: 0 0 2% 5%;
+    margin: auto;
   }
 
   .hobbies {
@@ -199,6 +205,11 @@ i {
 
   .items {
     padding-right: 5px;
+  }
+
+  address, .about {
+    font-size: 1.2em;
+    font-weight: 500;
   }
 
   .current {
@@ -211,7 +222,7 @@ i {
 
   .date {
   flex-basis: 25%;
-  padding-right: 1%;
+  padding-right: 5%;
   }
 
   .items {
@@ -224,6 +235,7 @@ i {
 
   .refs {
     margin-bottom: 10px;
+    padding: 0 20%;
   }
 
 }
