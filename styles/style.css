@@ -19,7 +19,7 @@
   font-weight: 500;
 }
 
-a, a:visited {
+a:visited {
   color: blue;
 }
 
@@ -141,8 +141,12 @@ article {
 }
 
 .refs {
-  justify-content: space-evenly;
+  display: flex;
   padding-bottom: 2%;
+}
+
+.ref {
+  flex-basis: 50%;
 }
 
 hr {
