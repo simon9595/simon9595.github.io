@@ -87,6 +87,12 @@ h4 {
   margin-top: 0;
 }
 
+h5 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .hobbies {
   display: flex; */
   flex-direction: row;
@@ -132,6 +138,7 @@ article {
 .items {
   flex-grow: 5;
   flex-basis: 65%;
+  padding-right: 20%
 }
 
 .date {
@@ -150,7 +157,7 @@ article {
 }
 
 hr {
-  width: 70%;
+  width: 80%;
   margin-left: 0;
   border: 1px solid #feca07;
 }
