@@ -43,7 +43,7 @@ aside {
 address, .about {
   padding: 10%;
   margin: -15% 0 0 0;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -218,11 +218,11 @@ i {
   }
 
   .current {
-    padding-top: 5%;
+    padding-top: 7%;
   }
 
   .past {
-    padding-top: 10%;
+    padding-top: 12%;
   }
 
   .date {
