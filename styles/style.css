@@ -27,8 +27,8 @@ a:visited {
   display: flex;
   flex-flow: row wrap;
   margin: auto;
-  max-width: 1300px;
-  font-family: roboto;
+  max-width: 1200px;
+  font-family: roboto, sans-serif;
   margin: -10px auto;
 }
 
@@ -100,7 +100,6 @@ h5 {
   flex-direction: row;
   justify-content: space-evenly;
   padding-bottom: 5%;
-  /* cuts off badly without padding at the bottom, at least on smaller screens */
 }
 
 .hobby {
@@ -158,6 +157,10 @@ article {
 .ref {
   flex-basis: 50%;
   min-width: 250px;
+}
+
+.rep {
+  margin-top: 1%;
 }
 
 hr {
