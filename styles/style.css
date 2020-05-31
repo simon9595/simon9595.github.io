@@ -245,3 +245,9 @@ i {
   }
 
 }
+
+@supports (-ms-ime-align: auto) {
+  .hobby {
+    padding-left: 15%;
+  }
+}
