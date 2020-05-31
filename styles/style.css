@@ -23,7 +23,7 @@ a:visited {
   color: blue;
 }
 
-.container {
+body {
   display: flex;
   flex-flow: row wrap;
   margin: auto;
