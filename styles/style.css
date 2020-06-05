@@ -251,6 +251,7 @@ i {
 
 @supports (-ms-ime-align: auto) {
   .hobby {
-    padding-left: 15%;
+    padding-left: 10%;
+    padding-right: 6%;
   }
 }
