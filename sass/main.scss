@@ -1,0 +1,11 @@
+@import "./utils/variables";
+@import "./layout/container";
+@import "./base/typography";
+@import "./layout/form";
+@import "./layout/mobile";
+
+@supports (-ms-ime-align: auto) {
+  .hobby {
+    padding: 0% 6% 0% 10%;
+  }
+}

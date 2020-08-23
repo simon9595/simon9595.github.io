@@ -1,0 +1,24 @@
+.contactform {
+  margin: auto;
+}
+
+form {
+  margin-top: 2em;
+  font-family: $mainfont;
+  font-size: medium;
+}
+
+.contactform {
+  width: 10em;
+  font-size: 18px;
+
+  &__input {
+    margin-bottom: 1em;
+    height: 2em;
+  }
+
+  &__submit {
+    background: $primary;
+    font-size: 2em;
+  }
+}

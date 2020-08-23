@@ -1,0 +1,63 @@
+@media screen and (max-width: 480px) {
+
+  .container {
+    margin: 0;
+  }
+
+  main {
+    margin-left: 0%;
+    order: -1;
+    width: 100%;
+    padding: 3%;
+  }
+
+  .name {
+    padding: 0 0 2% 5%;
+    margin: auto;
+  }
+
+  #title {
+    margin-top: 1%;
+  }
+
+  .hobbies {
+    padding-bottom: 10%;
+  }
+
+  .items {
+    padding-right: 5px;
+  }
+
+  address, .about {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .current {
+    padding-top: 7%;
+  }
+
+  .past {
+    padding-top: 12%;
+  }
+
+  .date {
+  flex-basis: 25%;
+  padding-right: 5%;
+  }
+
+  .items {
+  flex-basis: 75%
+  }
+
+  aside {
+    margin: 0;
+    width: 100%;
+  }
+
+  .refs {
+    margin-bottom: 10px;
+    padding: 0 20%;
+  }
+
+}

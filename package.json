@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This website serves as my online portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon9595/simon9595.github.io.git"
+  },
+  "author": "Szymon Szczypior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simon9595/simon9595.github.io/issues"
+  },
+  "homepage": "https://github.com/simon9595/simon9595.github.io#readme"
+}
