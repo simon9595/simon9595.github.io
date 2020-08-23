@@ -1,11 +1,13 @@
 body {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1400px;
   font-family: "roboto", sans-serif;
 }
 
 header {
-  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 aside {
@@ -29,33 +31,29 @@ address, .about {
 
 main {
   flex: 4 1 300px;
-  margin-left: 5%;
   order: 2;
 }
 
-.picture {
-  padding: 15%;
-  margin: -10% auto;
-}
-
-#me {
-  border: 5px solid #daaf12;
-  border-radius: 100%;
-  min-width: 10%;
-  min-height: 10%;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-#name {
-  margin-bottom: 0;
-}
-
 .name {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 500px;
   padding: 3em 0 0.4em 0;
   font-family: "Sinkin Sans";
   font-weight: 500;
   font-size: 1.4em;
+}
+
+#title {
+  font-size: 2.4em;
+}
+
+#name {
+  color: #FFB300;
+}
+
+#surname {
+  padding-left: 0.4em;
 }
 
 section {
@@ -123,8 +121,9 @@ article {
 
 nav {
   display: flex;
-  flex-direction: row-reverse;
-  margin-top: -5%;
+  flex-wrap: wrap;
+  flex-basis: 700px;
+  flex-direction: column-reverse;
 }
 
 @font-face {
