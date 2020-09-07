@@ -1,13 +1,10 @@
 body {
-  margin: auto;
-  max-width: $maxwidth;
-  font-family: $mainfont, sans-serif;
-}
-
-header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: auto;
+  max-width: $maxwidth;
+  font-family: $mainfont, sans-serif;
 }
 
 aside {
@@ -31,18 +28,19 @@ address, .about {
 
 main {
   flex: 4 1 300px;
-  // margin-left: 5%;
+  margin-left: 5%;
   order: 2;
 }
 
 .name {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-basis: 500px;
   padding: 3em 0 0.4em 0;
   font-family: $titlefont;
   font-weight: 500;
-  font-size: 1.4em;
+  font-size: 1.6em;
+  line-height: 1em;
 }
 
 #title {
@@ -56,6 +54,22 @@ main {
 #surname {
   padding-left: 0.4em;
 }
+
+.picture {
+  padding: 15%;
+  margin: -10% auto;
+
+}
+
+#me {
+  border: 5px solid rgb(218, 175, 18);
+  border-radius: 100%;
+  min-width: 10%;
+  min-height: 10%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 
 section {
   display: Flex;
@@ -108,6 +122,13 @@ article {
   max-height: 65px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5% 0;
+}
+
 .current {
   padding-right: 5%;
   padding-top: 3%;
@@ -121,8 +142,6 @@ article {
 }
 
 nav {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 700px;
-  flex-direction: column-reverse;
+  padding: 1em 0 1em 20%;
+  background-color: $secondary;
 }

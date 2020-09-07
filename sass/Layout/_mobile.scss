@@ -6,7 +6,6 @@
 
   main {
     margin-left: 0%;
-    order: -1;
     width: 100%;
     padding: 3%;
   }
@@ -14,6 +13,8 @@
   .name {
     padding: 0 0 2% 5%;
     margin: auto;
+    flex-wrap: wrap;
+    line-height: 0;
   }
 
   #title {
