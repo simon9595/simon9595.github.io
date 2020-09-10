@@ -19,11 +19,17 @@
   font-weight: 500;
 }
 
-
-h2 {
+.titletext {
   font-weight: 500;
   font-size: 2em;
   margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.contacttext {
+  font-weight: normal;
+  font-size: 1.3em;
+  background-color: $important;
 }
 
 h4 {
@@ -51,6 +57,11 @@ main i {
 .contact i {
   color: $secondary;
   font-size: 3.3em;
+}
+
+.hobbies i {
+  color: $secondary;
+  font-size: 5em;
 }
 
 #title {
@@ -89,6 +100,13 @@ nav a:hover {
 
 #currentlink {
   color: $primary;
+}
+
+.portfoliotext {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+  font-size: 3em;
 }
 
 

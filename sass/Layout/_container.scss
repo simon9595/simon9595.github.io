@@ -5,6 +5,7 @@ body {
   margin: auto;
   max-width: $maxwidth;
   font-family: $mainfont, sans-serif;
+  height: 100%
 }
 
 aside {
@@ -16,10 +17,13 @@ aside {
 }
 
 address, .about {
-  padding: 10%;
-  margin: -15% 0 0 0;
   font-weight: 500;
   font-style: normal;
+}
+
+.important {
+  width: 60%;
+  text-align: center;
 }
 
 .about {
@@ -112,14 +116,7 @@ article {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-bottom: 5%;
-}
-
-.hobby {
-  min-width: 35px;
-  min-height: 35px;
-  max-width: 65px;
-  max-height: 65px;
+  padding: 2% 0 5% 0;
 }
 
 .contact {
@@ -144,4 +141,26 @@ article {
 nav {
   padding: 1em 0 1em 20%;
   background-color: $secondary;
+}
+
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  h1 {
+    margin-bottom: 5%;
+  }
+
+  p {
+    margin-top: 1%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    padding-right: 1%;
+  }
 }

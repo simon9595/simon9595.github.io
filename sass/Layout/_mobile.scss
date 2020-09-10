@@ -22,7 +22,8 @@
   }
 
   .hobbies {
-    padding-bottom: 10%;
+    padding-top: 2em;
+    font-size: 0.6em;
   }
 
   .items {
@@ -60,5 +61,23 @@
     margin-bottom: 10px;
     padding: 0 20%;
   }
+
+.portfolio {
+  flex-direction: column;
+
+  &__item {
+    margin: auto;
+  }
+}
+
+.portfoliotext {
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.important {
+  width: 80%;
+  margin: auto;
+}
 
 }

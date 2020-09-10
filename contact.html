@@ -12,30 +12,26 @@
   </head>
 
   <body>
-    <header>
-      <div>
-        <div class="name">
-          <h1 id="name" lang="pl">Szymon</h1>
-          <h1 id="surname">Szczypior</h1>
-        </div>
-        <h3 id="title">Web Developer</h3>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <main>
+      <div class="name">
+        <h1 id="name">Szymon</h1>
+        <h1 id="surname">Szczypior</h1>
+      </div>
+      <div>
+        <h3 id="title"> &nbsp; Web Developer</h3>
+      </div>
+
+      <h1><i class="far fa-envelope"></i>&nbsp;Say hello!</h1>
+      <div class="important">
+        <h2 class="contacttext">All messages will be answered within <em>2 working weeks</em></h2>
+      </div>
       <div class="contactform">
         <form>
           <input class="contactform__input" type="text" name="first_name" required placeholder="Your Name">
           <br>
           <input class="contactform__input" type="email" name="email" required placeholder="Your e-mail address">
+          <br>
+          <input class="contactform__input" type="country" name="country" required placeholder="Country">
           <br>
           <input class="contactform__input" type="text" name="subject" required placeholder="Subject">
           <br>
@@ -46,5 +42,29 @@
       </div>
 
     </main>
+
+    <aside>
+
+      <div class="picture">
+        <img src="images/me.jpg" alt="A portrait of myself" id="me">
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a id="currentlink" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="contact">
+        <a href="mailto:szymon95@gmx.com"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/simon9595"><i class="fab fa-github-square"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+    </aside>
+
 
       </body>

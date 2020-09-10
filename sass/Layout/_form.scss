@@ -6,19 +6,50 @@ form {
   margin-top: 2em;
   font-family: $mainfont;
   font-size: medium;
+  max-width: 500px;
 }
 
 .contactform {
-  width: 10em;
   font-size: 18px;
 
   &__input {
     margin-bottom: 1em;
-    height: 2em;
+    height: 3em;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid $formborder;
   }
 
   &__submit {
-    background: $primary;
-    font-size: 2em;
+    background-color: $submit;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin: 1% 3% 2% 2%;
+    width: 95%;
+    font-size: 1.7em;
   }
+}
+
+textarea.contactform__input {
+  height: 15em;
+  width: 100%;
+  resize: none;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .contactform {
+
+    &__input {
+    width: 20em;
+  }
+
+  textarea.contactform__input {
+    width: 21em;
+  }
+}
 }
