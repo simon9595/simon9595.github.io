@@ -1,0 +1,58 @@
+body {
+  background-color: gainsboro;
+}
+
+.container {
+  display: flex;
+}
+
+form {
+  max-width: 250px;
+  padding: 1em;
+  background-color: #B2B2DF;
+}
+
+main {
+  padding-top: 2em;
+  padding-right: 20%;
+  padding-bottom: 1em;
+  order: 2;
+  flex-basis: 75%;
+}
+
+aside {
+  order: 1;
+  padding-top: 2em;
+  padding-left: 2%;
+  flex-basis: 25%;
+  flex-direction: column;
+
+  ol {
+    list-style-type: none;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+article {
+  padding: 0.1em;
+  border: 3px black dashed;
+
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.3em;
+  }
+}
+
+.articlepic {
+  float: left;
+  padding: 2%;
+  max-width: 250px;
+}

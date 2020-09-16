@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+#title {
+  font-family: $titlefont, cursive;
+  font-size: 120px;
+  margin-bottom: 1px;
+  margin-top: 20px;
+}
+
+#subtitle {
+  font-family: $subtitlefont, cursive;
+  font-size: 30px;
+  margin-top: 1px;
+}
+
+main {
+  font-family: $mainfont;
+  font-weight: 400;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 0.1em 10%;
+  h5 {
+    font-size: 30px;
+  }
+}
+
+.medialinks {
+  font-size: 35px;
+  letter-spacing: 4px;
+}
+
+p {
+  padding: 0 1em;
+}
+
+h1 {
+  margin-bottom: 1%;
+}
+
+h4 {
+  margin: 1% 0;
+}

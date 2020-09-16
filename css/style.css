@@ -40,7 +40,7 @@ main {
 .name {
   display: flex;
   flex-wrap: nowrap;
-  flex-basis: 500px;
+  flex-basis: 500px; /* Look into this*/
   padding: 3em 0 0.4em 0;
   font-family: "Sinkin Sans";
   font-weight: 500;
@@ -259,6 +259,10 @@ nav a:hover {
 
 #currentlink {
   color: #feca07;
+}
+
+section.portfolio a {
+  color: blue;
 }
 
 .portfoliotext {
