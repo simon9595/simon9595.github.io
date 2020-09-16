@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+body {
+  background-color: gainsboro;
+}
+
+.container {
+  display: flex;
+}
+
+form {
+  max-width: 250px;
+  padding: 1em;
+  background-color: #B2B2DF;
+}
+
+main {
+  padding-top: 2em;
+  padding-right: 20%;
+  padding-bottom: 1em;
+  order: 2;
+  flex-basis: 75%;
+}
+
+aside {
+  order: 1;
+  padding-top: 2em;
+  padding-left: 2%;
+  flex-basis: 25%;
+  flex-direction: column;
+}
+aside ol {
+  list-style-type: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+article {
+  padding: 0.1em;
+  border: 3px black dashed;
+}
+article h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+article p {
+  font-size: 1.3em;
+}
+
+.articlepic {
+  float: left;
+  padding: 2%;
+  max-width: 250px;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+#title {
+  font-family: "Bebas Neue", cursive, cursive;
+  font-size: 120px;
+  margin-bottom: 1px;
+  margin-top: 20px;
+}
+
+#subtitle {
+  font-family: "Dancing Script", cursive, cursive;
+  font-size: 30px;
+  margin-top: 1px;
+}
+
+main {
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 0.1em 10%;
+}
+footer h5 {
+  font-size: 30px;
+}
+
+.medialinks {
+  font-size: 35px;
+  letter-spacing: 4px;
+}
+
+p {
+  padding: 0 1em;
+}
+
+h1 {
+  margin-bottom: 1%;
+}
+
+h4 {
+  margin: 1% 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 2% 2% 2% 10%;
+}
+
+/*# sourceMappingURL=style.css.map */
