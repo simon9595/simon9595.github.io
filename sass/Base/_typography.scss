@@ -102,6 +102,12 @@ nav a:hover {
   color: $primary;
 }
 
+section.portfolio {
+  a {
+    color: blue;
+  }
+}
+
 .portfoliotext {
   text-transform: uppercase;
   font-weight: bold;
