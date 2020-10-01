@@ -40,7 +40,7 @@ main {
 .name {
   display: flex;
   flex-wrap: nowrap;
-  flex-basis: 500px; /* Look into this*/
+  flex-basis: 500px;
   padding: 3em 0 0.4em 0;
   font-family: "Sinkin Sans";
   font-weight: 500;
@@ -333,10 +333,10 @@ textarea.contactform__input {
 
 @media screen and (max-width: 480px) {
   .contactform__input {
-    width: 20em;
+    width: 95%;
   }
   .contactform textarea.contactform__input {
-    width: 21em;
+    width: 95%;
   }
 }
 @media screen and (max-width: 480px) {
