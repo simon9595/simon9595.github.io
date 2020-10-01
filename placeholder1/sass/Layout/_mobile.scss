@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+  .container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #title {
+    font-size: 2em;
+  }
+
+  form {
+    margin: auto;
+  }
+
+  main {
+    padding-right: 0;
+  }
+
+  .articlepic {
+    max-width: 95%;
+  }
+
+  h1 {
+    padding: 0 5%;
+  }
+
+  h4 {
+    padding: 5%;
+  }
+
+  footer {
+    h5 {
+      font-size: 1em;
+    }
+
+    p {
+      padding: 0;
+    }
+  }
+
+}
