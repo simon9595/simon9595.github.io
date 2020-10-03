@@ -40,7 +40,7 @@ main {
 .name {
   display: flex;
   flex-wrap: nowrap;
-  flex-basis: 500px; /* Look into this*/
+  flex-basis: 500px;
   padding: 3em 0 0.4em 0;
   font-family: "Sinkin Sans";
   font-weight: 500;
@@ -333,10 +333,10 @@ textarea.contactform__input {
 
 @media screen and (max-width: 480px) {
   .contactform__input {
-    width: 20em;
+    width: 95%;
   }
   .contactform textarea.contactform__input {
-    width: 21em;
+    width: 95%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -417,6 +417,73 @@ textarea.contactform__input {
   .important {
     width: 80%;
     margin: auto;
+  }
+
+  article.portfolio__item img {
+    align-self: center;
+    max-height: 400px;
+    width: 95%;
+  }
+  article.portfolio__item h1 {
+    align-self: center;
+  }
+}
+#name {
+  animation: colorchange 15s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: #FFB300;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: red;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: #FFB300;
+  }
+}
+#me:active {
+  transition: transform 300ms ease-in-out;
+  transform: translateY(-10px);
+}
+
+form {
+  animation: fadeinleft 1s ease;
+}
+
+@keyframes fadeinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 @supports (-ms-ime-align: auto) {
