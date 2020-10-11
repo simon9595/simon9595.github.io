@@ -16,6 +16,8 @@
   100% {color: $titlecolor}
 }
 
+// Make the transition colors variables
+
 #me:active {
   transition: transform 300ms ease-in-out;
   transform: translateY(-10px);
