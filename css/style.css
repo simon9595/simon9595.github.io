@@ -83,6 +83,9 @@ article {
   display: flex;
   flex-direction: row;
 }
+article p {
+  max-width: 700px;
+}
 
 .items {
   flex-grow: 5;
@@ -114,8 +117,9 @@ article {
 .hobbies {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 2% 0 5% 0;
+  max-width: 700px;
 }
 
 .contact {
@@ -146,6 +150,10 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.portfolio img {
+  max-height: 80%;
+  max-width: 80%;
 }
 .portfolio h1 {
   margin-bottom: 5%;
@@ -270,6 +278,10 @@ section.portfolio a {
   font-weight: bold;
   letter-spacing: 0.5em;
   font-size: 3em;
+}
+
+.contact a :hover {
+  color: white;
 }
 
 @media screen and (max-width: 480px) {
@@ -437,31 +449,31 @@ textarea.contactform__input {
     color: #FFB300;
   }
   10% {
-    color: #8e44ad;
+    color: #f8f80f;
   }
   20% {
-    color: #1abc9c;
+    color: #84f80f;
   }
   30% {
-    color: #d35400;
+    color: #0ff8f8;
   }
   40% {
-    color: blue;
+    color: #0eec9b;
   }
   50% {
-    color: #34495e;
+    color: #f8ff16;
   }
   60% {
-    color: blue;
+    color: #0980f6;
   }
   70% {
-    color: #2980b9;
+    color: #8b16ff;
   }
   80% {
-    color: red;
+    color: #ff3434;
   }
   90% {
-    color: #2980b9;
+    color: #00aa9b;
   }
   100% {
     color: #FFB300;

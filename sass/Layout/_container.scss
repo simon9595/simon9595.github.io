@@ -84,6 +84,10 @@ section {
 article {
   display: flex;
   flex-direction: row;
+
+  p {
+    max-width: 700px;
+  }
 }
 
 .items {
@@ -116,8 +120,9 @@ article {
 .hobbies {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 2% 0 5% 0;
+  max-width: 700px;
 }
 
 .contact {
@@ -149,6 +154,11 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  img {
+    max-height: 80%;
+    max-width:  80%;
+  }
 
   h1 {
     margin-bottom: 5%;
