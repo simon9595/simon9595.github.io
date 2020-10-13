@@ -80,4 +80,18 @@
   margin: auto;
 }
 
+article.portfolio {
+
+  &__item {
+    img {
+      align-self: center;
+      max-height: 400px;
+      width: 95%;
+    }
+    h1 {
+      align-self: center;
+    }
+  }
+}
+
 }

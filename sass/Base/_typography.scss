@@ -102,6 +102,12 @@ nav a:hover {
   color: $primary;
 }
 
+section.portfolio {
+  a {
+    color: blue;
+  }
+}
+
 .portfoliotext {
   text-transform: uppercase;
   font-weight: bold;
@@ -109,6 +115,13 @@ nav a:hover {
   font-size: 3em;
 }
 
+.contact {
+  a {
+    :hover {
+      color: white;
+    }
+  }
+}
 
 @media screen and (max-width: 480px) {
   li {
