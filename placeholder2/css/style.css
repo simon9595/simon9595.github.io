@@ -25,6 +25,18 @@ body {
 
 section, address {
   text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+section h3, address h3 {
+  border-top: 2px dashed #593C1F;
+  border-bottom: 2px dashed #593C1F;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 0.8em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
