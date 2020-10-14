@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+body {
+  background-color: #f6e7d8;
+  font-family: Caveat;
+  font-size: 1.5em;
+}
+
+.title {
+  background-color: #593C1F;
+  color: white;
+  font-family: Pacifico;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: center;
+}
+.title h1 {
+  padding: 0.7em 0 0 0;
+  margin: 0;
+}
+.title h2 {
+  padding-bottom: 0.7em;
+  margin-top: 0;
+}
+
+section, address {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
