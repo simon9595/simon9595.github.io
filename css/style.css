@@ -4,7 +4,6 @@ body {
   flex-wrap: wrap;
   margin: auto;
   max-width: 1400px;
-  font-family: "roboto", sans-serif;
 }
 
 aside {
@@ -184,6 +183,10 @@ nav {
   font-style: normal;
   font-weight: 500;
 }
+body {
+  font: 1em "roboto";
+}
+
 .titletext {
   font-weight: 500;
   font-size: 2em;
