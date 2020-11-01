@@ -115,6 +115,13 @@ section.portfolio {
   font-size: 3em;
 }
 
+.contact {
+  a {
+    :hover {
+      color: white;
+    }
+  }
+}
 
 @media screen and (max-width: 480px) {
   li {
