@@ -20,7 +20,6 @@
   "homepage": "https://github.com/simon9595/simon9595.github.io#readme",
   "dependencies": {
     "autoprefixer": "^10.0.1",
-    "prefix": "^1.0.0",
     "sass": "^1.27.0"
   }
 }

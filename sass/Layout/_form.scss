@@ -18,6 +18,12 @@ form {
     width: 100%;
     border: none;
     border-bottom: 2px solid $formborder;
+
+    &:focus {
+      border-bottom: 2px yellow solid;
+      transition: background-color 500ms;
+      background-color: azure;
+      }
     }
 
   &__submit {
